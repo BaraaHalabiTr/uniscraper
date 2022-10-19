@@ -1,0 +1,30 @@
+{
+  "name": "uniscraper",
+  "version": "1.0.0",
+  "description": "A web scraper project aimed to enhance the class registration user experience in universities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaraaHalabiTr/uniscraper.git"
+  },
+  "author": "Baraa Halabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaraaHalabiTr/uniscraper/issues"
+  },
+  "homepage": "https://github.com/BaraaHalabiTr/uniscraper#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.0.0"
+  }
+}
